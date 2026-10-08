@@ -7,7 +7,6 @@ from cosine_similarity import get_embeddings, cosine_similarity
 from qdrant_requirement_store import router as requirements_router
 from logging_config import configure_logging, get_logger
 
-
 configure_logging()
 logger = get_logger(__name__)
 
