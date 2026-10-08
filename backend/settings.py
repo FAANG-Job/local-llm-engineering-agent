@@ -12,6 +12,10 @@ class Settings(BaseSettings):
 
     QDRANT_URL: str
     QDRANT_COLLECTION: str
+    QDRANT_PURCHASE_ORDERS: str
+    QDRANT_INVOICE: str
+    QDRANT_RECEIPT: str
+    QDRANT_POLICY:str
     OLLAMA_URL: str
     OLLAMA_CHAT_MODEL: str
     OLLAMA_EMBED_MODEL: str
